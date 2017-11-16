@@ -14,7 +14,22 @@
         "type": "time",
         "format": "HH:mm"
       },
-      "Duration": {
+      "duration": {
+        "type": "string"
+      }
+    }
+  },
+  "detail": {
+    "type": "object",
+    "comment": "Detail screen",
+    "properties": {
+      "capacity": {
+        "type": "string"
+      },
+      "room": {
+        "type": "string"
+      },
+      "projector": {
         "type": "string"
       }
     }
