@@ -1,0 +1,8 @@
+{
+  "name": "meetingroom",
+  "description": "Meeting Room booking for GBS chennai",
+  "defaultLayout": "phone-portrait",
+  "previewToken": "39742050",
+  "uiCommonVersion": "5.2.1",
+  "creatorId": "gssvenra"
+}
