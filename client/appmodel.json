@@ -1,1 +1,22 @@
-{}
+{
+  "home": {
+    "type": "object",
+    "comment": "home screen",
+    "properties": {
+      "floor": {
+        "type": "string"
+      },
+      "date": {
+        "type": "date",
+        "format": "MMM DD, YYY"
+      },
+      "time": {
+        "type": "time",
+        "format": "HH:mm"
+      },
+      "Duration": {
+        "type": "string"
+      }
+    }
+  }
+}
