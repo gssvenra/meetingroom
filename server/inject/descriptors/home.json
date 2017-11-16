@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "floor": {
+      "type": "string",
+      "selector": ".ng-scope",
+      "control": "property.innerText"
+    },
+    "date": {
+      "type": "date",
+      "selector": ".ng-scope",
+      "control": "property.innerText",
+      "format": "MMM DD, YYYY"
+    },
+    "time": {
+      "type": "time",
+      "selector": ".ng-scope",
+      "control": "property.innerText",
+      "format": "HH:mm"
+    },
+    "duration": {
+      "type": "string",
+      "selector": ".ng-scope",
+      "control": "property.innerText"
+    }
+  },
+  "connect": []
+}
