@@ -20,8 +20,8 @@
     },
     "duration": {
       "type": "string",
-      "selector": ".ng-scope",
-      "control": "property.innerText"
+      "selector": "#duration",
+      "control": "select"
     },
     "ishome": {
       "type": "identifier",
