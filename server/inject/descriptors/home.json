@@ -26,9 +26,9 @@
     "floor": {
       "type": "string",
       "selector": "form-group",
-      "control": "property.innerHTML",
+      "control": "select",
       "selectContains": "Floor",
-      "selectIndex": 1
+      "selectIndex": 2
     }
   },
   "connect": [
