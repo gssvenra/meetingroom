@@ -3,8 +3,8 @@
   "properties": {
     "floor": {
       "type": "string",
-      "selector": "select ng-pristine ng-valid ng-not-empty ng-touched",
-      "control": "property.innerText"
+      "selector": ".select.ng-pristine.ng-untouched.ng-valid.ng-not-empty",
+      "control": "text"
     },
     "date": {
       "type": "date",
