@@ -3,7 +3,10 @@
   "properties": {
     "floor": {
       "type": "string",
-      "selector": ".select.ng-pristine.ng-untouched.ng-valid.ng-not-empty",
+      "selector": {
+        "fn": "getRooms",
+        "selector": ".select.ng-pristine.ng-untouched.ng-valid.ng-not-empty"
+      },
       "control": "text"
     },
     "date": {
