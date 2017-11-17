@@ -15,7 +15,8 @@
         "format": "HH:mm"
       },
       "duration": {
-        "type": "string"
+        "type": "object",
+        "properties": {}
       }
     }
   },
