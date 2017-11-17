@@ -27,7 +27,8 @@
       "type": "select",
       "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched",
       "control": "select",
-      "selectContains": "All"
+      "selectContains": "All",
+      "selectIndex": 1
     }
   },
   "connect": [
