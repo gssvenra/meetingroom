@@ -3,7 +3,7 @@
   "properties": {
     "floor": {
       "type": "string",
-      "selector": ".select.ng-pristine.ng-untouched.ng-valid.ng-not-empty",
+      "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched",
       "control": "select"
     },
     "date": {
