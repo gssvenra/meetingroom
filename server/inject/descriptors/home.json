@@ -29,5 +29,14 @@
       "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "ishome"
+      ],
+      "screens": [
+        "home"
+      ]
+    }
+  ]
 }
