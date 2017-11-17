@@ -3,7 +3,7 @@
   "properties": {
     "floor": {
       "type": "string",
-      "selector": "option",
+      "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched",
       "control": "select",
       "selectContains": "All"
     },
