@@ -25,10 +25,13 @@
     },
     "floor": {
       "type": "string",
-      "selector": "form-group",
+      "selector": ".ng-binding.ng-scope",
       "control": "select",
-      "selectContains": "Floor",
-      "selectIndex": 2
+      "frameSelector": [
+        null
+      ],
+      "selectIndex": 1,
+      "selectContains": "Campus 2 - 4th Floor"
     }
   },
   "connect": [
