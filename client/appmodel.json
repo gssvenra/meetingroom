@@ -4,7 +4,7 @@
     "comment": "home screen",
     "properties": {
       "floor": {
-        "type": "string"
+        "type": "select"
       },
       "date": {
         "type": "date",
