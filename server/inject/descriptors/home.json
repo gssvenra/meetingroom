@@ -25,8 +25,11 @@
     },
     "floor": {
       "type": "string",
-      "selector": ".ng-scope",
-      "control": "property.innerText"
+      "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched",
+      "control": "property.innerText",
+      "selectHidden": true,
+      "selectIndex": 1,
+      "selectContains": "All"
     }
   },
   "connect": [
