@@ -15,15 +15,7 @@
         "format": "HH:mm"
       },
       "duration": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "mins": {
-              "type": "string"
-            }
-          }
-        }
+        "type": "select"
       }
     }
   },
