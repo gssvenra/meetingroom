@@ -8,8 +8,8 @@
     },
     "date": {
       "type": "date",
-      "selector": ".ng-scope",
-      "control": "property.innerText",
+      "selector": "#startDate",
+      "control": "select",
       "format": "MMM DD, YYYY"
     },
     "time": {
