@@ -5,7 +5,9 @@
       "type": "string",
       "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched",
       "control": "select",
-      "selectContains": "All"
+      "selectContains": "All",
+      "selectHidden": true,
+      "selectIndex": 1
     },
     "date": {
       "type": "date",
