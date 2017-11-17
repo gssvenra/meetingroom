@@ -4,7 +4,8 @@
     "floor": {
       "type": "string",
       "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched",
-      "control": "select"
+      "control": "select",
+      "selectContains": "ctrl.userFloor"
     },
     "date": {
       "type": "date",
