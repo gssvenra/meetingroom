@@ -3,9 +3,9 @@
   "properties": {
     "floor": {
       "type": "string",
-      "selector": "label",
+      "selector": "option",
       "control": "select",
-      "selectContains": "Floor"
+      "selectContains": "All"
     },
     "date": {
       "type": "date",
