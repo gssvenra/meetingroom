@@ -25,9 +25,9 @@
     },
     "floor": {
       "type": "string",
-      "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched",
-      "control": "select",
-      "selectContains": "All",
+      "selector": "form-group",
+      "control": "property.innerHTML",
+      "selectContains": "Floor",
       "selectIndex": 1
     }
   },
