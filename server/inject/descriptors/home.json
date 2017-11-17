@@ -4,7 +4,7 @@
     "floor": {
       "type": "string",
       "selector": ".select.ng-pristine.ng-untouched.ng-valid.ng-not-empty",
-      "control": "text"
+      "control": "select"
     },
     "date": {
       "type": "date",
