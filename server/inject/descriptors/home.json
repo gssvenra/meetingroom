@@ -1,14 +1,6 @@
 {
   "type": "object",
   "properties": {
-    "floor": {
-      "type": "string",
-      "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched",
-      "control": "select",
-      "selectContains": "All",
-      "selectHidden": true,
-      "selectIndex": 1
-    },
     "date": {
       "type": "date",
       "selector": "#startDate",
@@ -30,6 +22,11 @@
       "type": "identifier",
       "selector": ".col-sm-12.heading.margintop10",
       "control": "exists"
+    },
+    "floor": {
+      "type": "string",
+      "selector": ".ng-scope",
+      "control": "property.innerText"
     }
   },
   "connect": [
