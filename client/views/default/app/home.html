@@ -15,7 +15,8 @@
                     <label class="item  item-input item-select-icon positive-icon"
                         data-comp-id="selectInput.1">
                         <span class="input-label">Select Campus / Floor</span>
-                        <select></select>
+                        <select ng-model="data.floor.selected"
+                            ng-options="item as item.label for item in data.floor.options"></select>
                     </label>
                 </div>
             </div>
@@ -24,8 +25,8 @@
                     <label class="item item-input item-date-icon positive-icon"
                         data-comp-id="dateInput.1">
                         <span class="input-label">Date</span>
-                        <input date-format="MM/DD/YYYY" max="2100-12-12" min="1900-01-01"
-                            ng-model-options="{allowInvalid: true}" type="date">
+                        <input date-format="MMM DD, YYY" max="2100-12-12" min="1900-01-01"
+                            ng-model-options="{allowInvalid: true}" ng-model="data.date" type="date">
                     </label>
                 </div>
             </div>
@@ -34,7 +35,7 @@
                     <label class="item item-input item-time-icon positive-icon"
                         data-comp-id="timeInput.1">
                         <span class="input-label">Time</span>
-                        <input time-format="HH:mm" type="time">
+                        <input ng-model="data.time" time-format="HH:mm" type="time">
                     </label>
                 </div>
             </div>
@@ -43,7 +44,8 @@
                     <label class="item  item-input item-select-icon positive-icon"
                         data-comp-id="selectInput.2">
                         <span class="input-label">Duration</span>
-                        <select></select>
+                        <select ng-model="data.duration.selected"
+                            ng-options="item as item.label for item in data.duration.options"></select>
                     </label>
                 </div>
             </div>
