@@ -27,8 +27,6 @@
       "type": "select",
       "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched",
       "control": "select",
-      "selectHidden": true,
-      "selectIndex": 1,
       "selectContains": "All"
     }
   },
