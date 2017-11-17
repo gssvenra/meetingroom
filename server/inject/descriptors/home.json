@@ -14,8 +14,8 @@
     },
     "time": {
       "type": "time",
-      "selector": ".ng-scope",
-      "control": "property.innerText",
+      "selector": "#startTime",
+      "control": "text",
       "format": "HH:mm"
     },
     "duration": {
