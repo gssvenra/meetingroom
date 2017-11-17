@@ -15,8 +15,15 @@
         "format": "HH:mm"
       },
       "duration": {
-        "type": "object",
-        "properties": {}
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "mins": {
+              "type": "string"
+            }
+          }
+        }
       }
     }
   },
