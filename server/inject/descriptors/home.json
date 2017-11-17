@@ -7,7 +7,7 @@
       "control": "select",
       "selectContains": "All",
       "selectHidden": true,
-      "selectIndex": 2
+      "selectIndex": 1
     },
     "date": {
       "type": "date",
