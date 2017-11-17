@@ -25,13 +25,13 @@
     },
     "floor": {
       "type": "string",
-      "selector": ".ng-binding.ng-scope",
+      "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched",
       "control": "select",
       "frameSelector": [
         null
       ],
       "selectIndex": 1,
-      "selectContains": "Campus 2 - 4th Floor"
+      "selectContains": "All"
     }
   },
   "connect": [
