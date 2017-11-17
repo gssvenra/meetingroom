@@ -9,7 +9,7 @@
     "date": {
       "type": "date",
       "selector": "#startDate",
-      "control": "select",
+      "control": "text",
       "format": "MMM DD, YYYY"
     },
     "time": {
