@@ -30,7 +30,8 @@
       "frameSelector": [
         null
       ],
-      "selectContains": "All"
+      "selectContains": "All",
+      "selectIndex": 1
     }
   },
   "connect": [
