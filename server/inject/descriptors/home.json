@@ -25,14 +25,14 @@
     },
     "floor": {
       "type": "string",
-      "selector": ".form-group",
       "control": "select",
       "frameSelector": [
         null
       ],
       "selectIndex": 2,
       "selectContains": "Floor",
-      "selectHidden": true
+      "selectHidden": true,
+      "selector": ".select.ng-pristine.ng-untouched.ng-valid.ng-not-empty"
     }
   },
   "connect": [
