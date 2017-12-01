@@ -30,7 +30,8 @@
       "frameSelector": [
         null
       ],
-      "selectIndex": 1
+      "selectIndex": 1,
+      "selectContains": "Floor"
     }
   },
   "connect": [
