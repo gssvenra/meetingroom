@@ -31,7 +31,8 @@
         null
       ],
       "selectIndex": 2,
-      "selectContains": "Floor"
+      "selectContains": "Floor",
+      "selectHidden": true
     }
   },
   "connect": [
