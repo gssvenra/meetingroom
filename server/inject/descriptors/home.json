@@ -25,13 +25,12 @@
     },
     "floor": {
       "type": "string",
-      "selector": "#ctrl.userFloor",
+      "selector": "select ng-pristine ng-untouched ng-valid ng-not-empty",
       "control": "select",
       "frameSelector": [
         null
       ],
-      "selectContains": "All",
-      "selectIndex": 1
+      "selectIndex": 2
     }
   },
   "connect": [
